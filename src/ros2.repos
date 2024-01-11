@@ -8,3 +8,11 @@ repositories:
     type: git
     url: https://github.com/ArendJan/tmx-cpp.git
     version: add_stuff
+  mirte-telemetrix-cpp:
+    type: git
+    url: https://github.com/ArendJan/mirte-telemetrix-cpp.git
+    version: main
+  mirte-ros-packages:
+    type: git
+    url: https://github.com/mklomp/mirte-ros-packages.git
+    version: ros2

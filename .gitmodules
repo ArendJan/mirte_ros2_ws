@@ -2,3 +2,11 @@
 	path = src/tmx-cpp
 	url = https://github.com/ArendJan/tmx-cpp.git
 	branch = add_stuff
+[submodule "src/mirte-telemetrix-cpp"]
+	path = src/mirte-telemetrix-cpp
+	url = https://github.com/ArendJan/mirte-telemetrix-cpp.git
+	branch = main
+[submodule "src/mirte-ros-packages"]
+	path = src/mirte-ros-packages
+	url = https://github.com/ArendJan/mirte-ros-packages.git
+	branch = main
