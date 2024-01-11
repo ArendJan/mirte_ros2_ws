@@ -1,0 +1,4 @@
+[submodule "src/tmx-cpp"]
+	path = src/tmx-cpp
+	url = https://github.com/ArendJan/tmx-cpp.git
+	branch = add_stuff

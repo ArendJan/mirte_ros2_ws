@@ -4,7 +4,7 @@
 # Example:
 ############
 repositories:
-  examples:
+  tmx-cpp:
     type: git
-    url: https://github.com/ros2/examples.git
-    version: humble
+    url: https://github.com/ArendJan/tmx-cpp.git
+    version: add_stuff
