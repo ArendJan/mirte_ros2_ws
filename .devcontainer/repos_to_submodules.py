@@ -6,7 +6,7 @@ import yaml
 prefix="src"
 
 def add_git_submodule(repo_name, repo_url, repo_version):
-    subprocess.call(['git', 'submodule', 'add', '-b', repo_version, repo_url, repo_name])
+    subprocess.call(['git', 'submodule', 'add', "--force", '-b', repo_version, repo_url, repo_name])
 
 def is_submodule(repo_name):
     try:
