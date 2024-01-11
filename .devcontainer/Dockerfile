@@ -11,7 +11,6 @@ RUN apt-get update \
    && apt-get clean -y \
    && rm -rf /var/lib/apt/lists/*
 ENV DEBIAN_FRONTEND=dialog
-RUN cd /home/ros && curl -s https://raw.githubusercontent.com/nektos/act/master/install.sh | sudo bash
 
 # Set up auto-source of workspace for ros user
 ARG WORKSPACE
