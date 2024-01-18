@@ -13,7 +13,12 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "problemMatcher": "$gcc"
+            "problemMatcher": "$gcc",
+            "presentation": {
+                "reveal": "silent",
+                "revealProblems": "never",
+                "close": false
+            }
         },
         {
             "label": "debug",
